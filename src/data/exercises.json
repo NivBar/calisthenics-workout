@@ -1,0 +1,229 @@
+{
+  "blocks": {
+    "A": {
+      "name": "Primary Strength",
+      "exercises": [
+        {
+          "id": "pull-ups",
+          "name": "Pull-ups",
+          "sets": "4",
+          "reps": "6-10",
+          "muscles": "Back, Biceps",
+          "makeEasier": "Band / negatives",
+          "videoFile": "pull_up.mp4",
+          "block": "A"
+        },
+        {
+          "id": "chin-ups",
+          "name": "Chin-ups",
+          "sets": "4",
+          "reps": "6-10",
+          "muscles": "Back, Biceps",
+          "makeEasier": "Band / negatives",
+          "videoFile": "chin_up.mp4",
+          "block": "A"
+        },
+        {
+          "id": "ring-dips",
+          "name": "Ring Dips",
+          "sets": "4",
+          "reps": "6-10",
+          "muscles": "Chest, Triceps",
+          "makeEasier": "Feet-assisted",
+          "videoFile": "ring_dip.mp4",
+          "block": "A"
+        }
+      ]
+    },
+    "B": {
+      "name": "Chest",
+      "exercises": [
+        {
+          "id": "ring-push-ups",
+          "name": "Ring Push-ups (elevated)",
+          "sets": "3",
+          "reps": "8-15",
+          "muscles": "Chest",
+          "makeEasier": "Incline",
+          "videoFile": "bulgarian_ring_push_up.mp4",
+          "block": "B"
+        }
+      ]
+    },
+    "C": {
+      "name": "Back + Shoulders",
+      "exercises": [
+        {
+          "id": "ring-rows",
+          "name": "Ring Rows",
+          "sets": "3",
+          "reps": "10-15",
+          "muscles": "Mid back",
+          "makeEasier": "Bend knees",
+          "videoFile": "ring_row.mp4",
+          "block": "C"
+        },
+        {
+          "id": "ring-y-raises",
+          "name": "Ring Y Raises",
+          "sets": "2-3",
+          "reps": "12-15",
+          "muscles": "Rear delts",
+          "makeEasier": "Stand upright",
+          "videoFile": "ring_y_raise.mp4",
+          "block": "C"
+        },
+        {
+          "id": "ring-face-pull",
+          "name": "Ring Face Pull",
+          "sets": "2-3",
+          "reps": "12-15",
+          "muscles": "Rear delts",
+          "makeEasier": "Stand upright",
+          "videoFile": "ring_face_pull.mp4",
+          "block": "C"
+        }
+      ]
+    },
+    "D": {
+      "name": "Legs",
+      "exercises": [
+        {
+          "id": "bulgarian-split-squat",
+          "name": "Bulgarian Split Squat",
+          "sets": "3",
+          "reps": "10-15",
+          "muscles": "Quads, Glutes",
+          "makeEasier": "Reduce depth",
+          "videoFile": "bulgarian_split_squat.mp4",
+          "block": "D"
+        },
+        {
+          "id": "pistol-squat",
+          "name": "Pistol Squat",
+          "sets": "3",
+          "reps": "5-8",
+          "muscles": "Quads, Glutes",
+          "makeEasier": "Assisted",
+          "videoFile": "pistol_squat.mp4",
+          "block": "D"
+        },
+        {
+          "id": "nordic-curl",
+          "name": "Nordic Curl",
+          "sets": "3",
+          "reps": "4-8",
+          "muscles": "Hamstrings",
+          "makeEasier": "Negatives",
+          "videoFile": "nordic_curl.mp4",
+          "block": "D"
+        },
+        {
+          "id": "calf-raises",
+          "name": "Calf Raises",
+          "sets": "2-3",
+          "reps": "12-20",
+          "muscles": "Calves",
+          "makeEasier": "Two-leg",
+          "videoFile": "single_leg_calf_raise.mp4",
+          "block": "D"
+        }
+      ]
+    },
+    "E": {
+      "name": "Core",
+      "exercises": [
+        {
+          "id": "l-sit",
+          "name": "L-sit",
+          "sets": "3",
+          "reps": "15-30s",
+          "muscles": "Abs",
+          "makeEasier": "Tuck",
+          "videoFile": "l_sit_ring.mp4",
+          "block": "E",
+          "isTimeBased": true
+        },
+        {
+          "id": "leg-raises",
+          "name": "Leg Raises",
+          "sets": "3",
+          "reps": "10-15",
+          "muscles": "Lower abs",
+          "makeEasier": "Knee raises",
+          "videoFile": "hanging_leg_raise.mp4",
+          "block": "E"
+        },
+        {
+          "id": "twist-raises",
+          "name": "Twist Raises",
+          "sets": "2-3",
+          "reps": "10-15",
+          "muscles": "Obliques",
+          "makeEasier": "No twist",
+          "videoFile": "hanging_knee_raises_twist.mp4",
+          "block": "E"
+        }
+      ]
+    },
+    "Stretching": {
+      "name": "Stretching",
+      "exercises": [
+        {
+          "id": "chest-stretch",
+          "name": "Chest stretch",
+          "time": "30-45s",
+          "muscles": "Chest",
+          "videoFile": "chest_stretch.mp4",
+          "block": "Stretching",
+          "isTimeBased": true
+        },
+        {
+          "id": "lat-stretch",
+          "name": "Lat stretch",
+          "time": "30-45s",
+          "muscles": "Back",
+          "videoFile": "lat_stretch.mp4",
+          "block": "Stretching",
+          "isTimeBased": true
+        },
+        {
+          "id": "shoulder-stretch",
+          "name": "Shoulder stretch",
+          "time": "30s",
+          "muscles": "Delts",
+          "videoFile": "shoulder_stretch.mp4",
+          "block": "Stretching",
+          "isTimeBased": true
+        },
+        {
+          "id": "hip-flexor-stretch",
+          "name": "Hip flexor stretch",
+          "time": "30-45s",
+          "muscles": "Hips",
+          "videoFile": "hip_flexor_stretch.mp4",
+          "block": "Stretching",
+          "isTimeBased": true
+        },
+        {
+          "id": "hamstring-stretch",
+          "name": "Hamstring stretch",
+          "time": "30-45s",
+          "muscles": "Hamstrings",
+          "videoFile": "hamstring_stretch.mp4",
+          "block": "Stretching",
+          "isTimeBased": true
+        },
+        {
+          "id": "calf-stretch",
+          "name": "Calf stretch",
+          "time": "30-45s",
+          "muscles": "Calves",
+          "videoFile": "calf_stretch.mp4",
+          "block": "Stretching",
+          "isTimeBased": true
+        }
+      ]
+    }
+  }
+}
