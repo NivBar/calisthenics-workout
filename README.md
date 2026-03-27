@@ -217,13 +217,6 @@ In `src/index.css`, modify CSS variables:
 }
 ```
 
-## 📱 Browser Support
-
-- Chrome/Edge 90+
-- Firefox 88+
-- Safari 14+
-- Mobile browsers (iOS 14+, Android 10+)
-
 ## 🐛 Troubleshooting
 
 ### Videos not playing
@@ -240,26 +233,3 @@ In `src/index.css`, modify CSS variables:
 ### Styling issues
 - Hard refresh: Ctrl+Shift+R (Windows) or Cmd+Shift+R (Mac)
 - Check browser zoom level (should be 100%)
-
-## 📄 License
-
-This project is open source and available for personal use.
-
-## 🙏 Acknowledgments
-
-- Exercise program design based on calisthenics principles
-- Built with modern web technologies for optimal performance
-- Designed for real-world gym use
-
-## 📞 Support
-
-For issues or questions:
-1. Check the troubleshooting section
-2. Review the code comments
-3. Inspect browser console for errors
-
----
-
-**Built with ❤️ for calisthenics enthusiasts**
-
-Start your workout journey today! 💪🔥
