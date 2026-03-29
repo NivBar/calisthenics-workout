@@ -50,10 +50,28 @@ const ExerciseDetail = ({ exercise, onClose }) => {
               <span style={styles.infoLabel}>💪 Muscles:</span>
               <span style={styles.infoValue}>{exercise.muscles}</span>
             </div>
+            {exercise.correctForm && (
+              <div style={styles.infoItem}>
+                <span style={styles.infoLabel}>✓ Correct Form:</span>
+                <span style={styles.infoValue}>{exercise.correctForm}</span>
+              </div>
+            )}
             {exercise.makeEasier && (
               <div style={styles.infoItem}>
                 <span style={styles.infoLabel}>💡 Make easier:</span>
                 <span style={styles.infoValue}>{exercise.makeEasier}</span>
+              </div>
+            )}
+            {exercise.makeHarder && (
+              <div style={styles.infoItem}>
+                <span style={styles.infoLabel}>🔥 Make harder:</span>
+                <span style={styles.infoValue}>{exercise.makeHarder}</span>
+              </div>
+            )}
+            {exercise.rest && (
+              <div style={styles.infoItem}>
+                <span style={styles.infoLabel}>⏱ Rest:</span>
+                <span style={styles.infoValue}>{exercise.rest}</span>
               </div>
             )}
           </div>
@@ -102,7 +120,7 @@ const styles = {
   modal: {
     backgroundColor: '#1a1a1a',
     borderRadius: '16px',
-    maxWidth: '900px',
+    maxWidth: '600px',
     width: '100%',
     maxHeight: '90vh',
     overflowY: 'auto',

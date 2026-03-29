@@ -31,7 +31,7 @@ const VideoPlayer = ({ videoFile, autoPlay = true }) => {
 const styles = {
   container: {
     width: '100%',
-    maxWidth: '800px',
+    maxWidth: '500px',
     margin: '0 auto',
     borderRadius: '12px',
     overflow: 'hidden',

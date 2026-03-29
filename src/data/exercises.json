@@ -8,8 +8,11 @@
           "name": "Pull-ups",
           "sets": "4",
           "reps": "6-10",
-          "muscles": "Back, Biceps",
+          "muscles": "Lats, Biceps",
+          "correctForm": "Full hang, chest up, no swing",
           "makeEasier": "Band / negatives",
+          "makeHarder": "Chest-to-bar, weighted",
+          "rest": "90-120s",
           "videoFile": "pull_up.mp4",
           "block": "A"
         },
@@ -18,8 +21,11 @@
           "name": "Chin-ups",
           "sets": "4",
           "reps": "6-10",
-          "muscles": "Back, Biceps",
+          "muscles": "Lats, Biceps",
+          "correctForm": "Full hang, chest up, no swing",
           "makeEasier": "Band / negatives",
+          "makeHarder": "Chest-to-bar, weighted",
+          "rest": "90-120s",
           "videoFile": "chin_up.mp4",
           "block": "A"
         },
@@ -29,7 +35,10 @@
           "sets": "4",
           "reps": "6-10",
           "muscles": "Chest, Triceps",
+          "correctForm": "Deep ROM, slight lean, control",
           "makeEasier": "Feet-assisted",
+          "makeHarder": "Pause + weight",
+          "rest": "90-120s",
           "videoFile": "ring_dip.mp4",
           "block": "A"
         }
@@ -40,48 +49,16 @@
       "exercises": [
         {
           "id": "ring-push-ups",
-          "name": "Ring Push-ups (elevated)",
+          "name": "Ring Push-ups",
           "sets": "3",
           "reps": "8-15",
-          "muscles": "Chest",
+          "muscles": "Chest, Delts",
+          "correctForm": "Deep stretch, body straight",
           "makeEasier": "Incline",
+          "makeHarder": "Feet elevated / weighted",
+          "rest": "60-90s",
           "videoFile": "bulgarian_ring_push_up.mp4",
           "block": "B"
-        }
-      ]
-    },
-    "C": {
-      "name": "Back + Shoulders",
-      "exercises": [
-        {
-          "id": "ring-rows",
-          "name": "Ring Rows",
-          "sets": "3",
-          "reps": "10-15",
-          "muscles": "Mid back",
-          "makeEasier": "Bend knees",
-          "videoFile": "ring_row.mp4",
-          "block": "C"
-        },
-        {
-          "id": "ring-y-raises",
-          "name": "Ring Y Raises",
-          "sets": "2-3",
-          "reps": "12-15",
-          "muscles": "Rear delts",
-          "makeEasier": "Stand upright",
-          "videoFile": "ring_y_raise.mp4",
-          "block": "C"
-        },
-        {
-          "id": "ring-face-pull",
-          "name": "Ring Face Pull",
-          "sets": "2-3",
-          "reps": "12-15",
-          "muscles": "Rear delts",
-          "makeEasier": "Stand upright",
-          "videoFile": "ring_face_pull.mp4",
-          "block": "C"
         }
       ]
     },
@@ -94,7 +71,10 @@
           "sets": "3",
           "reps": "10-15",
           "muscles": "Quads, Glutes",
+          "correctForm": "Knee tracks, torso stable",
           "makeEasier": "Reduce depth",
+          "makeHarder": "Add weight / pause",
+          "rest": "60-120s",
           "videoFile": "bulgarian_split_squat.mp4",
           "block": "D"
         },
@@ -104,7 +84,10 @@
           "sets": "3",
           "reps": "5-8",
           "muscles": "Quads, Glutes",
+          "correctForm": "Full depth, balance",
           "makeEasier": "Assisted",
+          "makeHarder": "Pause / deficit",
+          "rest": "60-120s",
           "videoFile": "pistol_squat.mp4",
           "block": "D"
         },
@@ -114,7 +97,10 @@
           "sets": "3",
           "reps": "4-8",
           "muscles": "Hamstrings",
+          "correctForm": "Slow descent, tight core",
           "makeEasier": "Negatives",
+          "makeHarder": "Full ROM",
+          "rest": "60-120s",
           "videoFile": "nordic_curl.mp4",
           "block": "D"
         },
@@ -124,9 +110,56 @@
           "sets": "2-3",
           "reps": "12-20",
           "muscles": "Calves",
+          "correctForm": "Full stretch, slow",
           "makeEasier": "Two-leg",
+          "makeHarder": "Single-leg + pause",
+          "rest": "30-60s",
           "videoFile": "single_leg_calf_raise.mp4",
           "block": "D"
+        }
+      ]
+    },
+    "C": {
+      "name": "Back + Shoulders",
+      "exercises": [
+        {
+          "id": "ring-rows",
+          "name": "Ring Rows",
+          "sets": "3",
+          "reps": "10-15",
+          "muscles": "Mid Back",
+          "correctForm": "Pull chest to rings, squeeze",
+          "makeEasier": "Bend knees",
+          "makeHarder": "Feet elevated + pause",
+          "rest": "60-90s",
+          "videoFile": "ring_row.mp4",
+          "block": "C"
+        },
+        {
+          "id": "ring-y-raises",
+          "name": "Y Raises",
+          "sets": "2-3",
+          "reps": "12-15",
+          "muscles": "Rear Delts",
+          "correctForm": "Light angle, control",
+          "makeEasier": "Stand upright",
+          "makeHarder": "Slow + hold",
+          "rest": "30-60s",
+          "videoFile": "ring_y_raise.mp4",
+          "block": "C"
+        },
+        {
+          "id": "ring-face-pull",
+          "name": "Ring Face Pull",
+          "sets": "2-3",
+          "reps": "12-15",
+          "muscles": "Rear Delts",
+          "correctForm": "Pull to face, elbows high",
+          "makeEasier": "Stand upright",
+          "makeHarder": "Slow + pause",
+          "rest": "30-60s",
+          "videoFile": "ring_face_pull.mp4",
+          "block": "C"
         }
       ]
     },
@@ -139,7 +172,10 @@
           "sets": "3",
           "reps": "15-30s",
           "muscles": "Abs",
+          "correctForm": "Locked arms, legs straight",
           "makeEasier": "Tuck",
+          "makeHarder": "Extend + longer",
+          "rest": "30-60s",
           "videoFile": "l_sit_ring.mp4",
           "block": "E",
           "isTimeBased": true
@@ -149,8 +185,11 @@
           "name": "Leg Raises",
           "sets": "3",
           "reps": "10-15",
-          "muscles": "Lower abs",
+          "muscles": "Lower Abs",
+          "correctForm": "No swing, control",
           "makeEasier": "Knee raises",
+          "makeHarder": "Toes-to-bar",
+          "rest": "30-60s",
           "videoFile": "hanging_leg_raise.mp4",
           "block": "E"
         },
@@ -160,9 +199,43 @@
           "sets": "2-3",
           "reps": "10-15",
           "muscles": "Obliques",
+          "correctForm": "Controlled twist",
           "makeEasier": "No twist",
+          "makeHarder": "Extend legs",
+          "rest": "30-60s",
           "videoFile": "hanging_knee_raises_twist.mp4",
           "block": "E"
+        }
+      ]
+    },
+    "F": {
+      "name": "Arms",
+      "exercises": [
+        {
+          "id": "ring-bicep-curls",
+          "name": "Ring Bicep Curls",
+          "sets": "2-3",
+          "reps": "10-12",
+          "muscles": "Biceps",
+          "correctForm": "Elbows fixed, squeeze",
+          "makeEasier": "Stand upright",
+          "makeHarder": "Lower angle",
+          "rest": "30-60s",
+          "videoFile": "ring_bicep_curl.mp4",
+          "block": "F"
+        },
+        {
+          "id": "ring-tricep-extensions",
+          "name": "Ring Tricep Extensions",
+          "sets": "2-3",
+          "reps": "10-12",
+          "muscles": "Triceps",
+          "correctForm": "Elbows fixed",
+          "makeEasier": "Reduce angle",
+          "makeHarder": "Feet further back",
+          "rest": "30-60s",
+          "videoFile": "ring_tricep_extension.mp4",
+          "block": "F"
         }
       ]
     },
@@ -171,54 +244,84 @@
       "exercises": [
         {
           "id": "chest-stretch",
-          "name": "Chest stretch",
+          "name": "Chest Stretch",
           "time": "30-45s",
           "muscles": "Chest",
+          "correctForm": "Open chest fully",
+          "makeEasier": "Reduce range",
+          "makeHarder": "Deeper hold",
           "videoFile": "chest_stretch.mp4",
           "block": "Stretching",
           "isTimeBased": true
         },
         {
           "id": "lat-stretch",
-          "name": "Lat stretch",
+          "name": "Lat Stretch",
           "time": "30-45s",
           "muscles": "Back",
+          "correctForm": "Relax arms overhead",
+          "makeEasier": "Reduce reach",
+          "makeHarder": "Hang stretch",
           "videoFile": "lat_stretch.mp4",
           "block": "Stretching",
           "isTimeBased": true
         },
         {
+          "id": "cobra-stretch",
+          "name": "Cobra Stretch",
+          "time": "30-45s",
+          "muscles": "Abs",
+          "correctForm": "Extend spine",
+          "makeEasier": "Lower angle",
+          "makeHarder": "Full extension",
+          "videoFile": "cobra_stretch.mp4",
+          "block": "Stretching",
+          "isTimeBased": true
+        },
+        {
           "id": "shoulder-stretch",
-          "name": "Shoulder stretch",
+          "name": "Shoulder Stretch",
           "time": "30s",
           "muscles": "Delts",
+          "correctForm": "Gentle pull across body",
+          "makeEasier": "Less tension",
+          "makeHarder": "Deeper stretch",
           "videoFile": "shoulder_stretch.mp4",
           "block": "Stretching",
           "isTimeBased": true
         },
         {
           "id": "hip-flexor-stretch",
-          "name": "Hip flexor stretch",
+          "name": "Hip Flexor Stretch",
           "time": "30-45s",
           "muscles": "Hips",
+          "correctForm": "Neutral spine",
+          "makeEasier": "Short stance",
+          "makeHarder": "Deep lunge",
           "videoFile": "hip_flexor_stretch.mp4",
           "block": "Stretching",
           "isTimeBased": true
         },
         {
           "id": "hamstring-stretch",
-          "name": "Hamstring stretch",
+          "name": "Hamstring Stretch",
           "time": "30-45s",
           "muscles": "Hamstrings",
+          "correctForm": "Straight leg",
+          "makeEasier": "Bend knee",
+          "makeHarder": "Deeper reach",
           "videoFile": "hamstring_stretch.mp4",
           "block": "Stretching",
           "isTimeBased": true
         },
         {
           "id": "calf-stretch",
-          "name": "Calf stretch",
+          "name": "Calf Stretch",
           "time": "30-45s",
           "muscles": "Calves",
+          "correctForm": "Heel down",
+          "makeEasier": "Flat ground",
+          "makeHarder": "Elevated stretch",
           "videoFile": "calf_stretch.mp4",
           "block": "Stretching",
           "isTimeBased": true
