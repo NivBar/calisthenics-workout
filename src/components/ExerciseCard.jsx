@@ -24,10 +24,16 @@ const ExerciseCard = ({ exercise, onSelect }) => {
         {exercise.muscles}
       </div>
 
-      {showTip && exercise.makeEasier && (
+      {showTip && exercise.correctForm && (
         <div style={styles.tip}>
-          <span style={styles.tipIcon}>💡</span>
-          <span style={styles.tipText}>Make easier: {exercise.makeEasier}</span>
+          <span style={styles.tipIcon}>✓</span>
+          <span style={styles.tipText}>{exercise.correctForm}</span>
+        </div>
+      )}
+      
+      {exercise.rest && (
+        <div style={styles.restBadge}>
+          ⏱ {exercise.rest}
         </div>
       )}
 
@@ -91,13 +97,22 @@ const styles = {
     backgroundColor: '#1a1a1a',
     padding: '10px 12px',
     borderRadius: '8px',
-    marginBottom: '12px',
+    marginBottom: '8px',
     display: 'flex',
-    alignItems: 'center',
+    alignItems: 'flex-start',
     gap: '8px',
     fontSize: '13px',
     color: '#00ff88',
-    border: '1px solid #3a3a3a',
+    border: '1px solid #00ff88',
+    boxShadow: '0 2px 8px rgba(0, 255, 136, 0.2)',
+  },
+  restBadge: {
+    fontSize: '12px',
+    color: '#b0b0b0',
+    display: 'flex',
+    alignItems: 'center',
+    gap: '4px',
+    marginTop: '4px',
   },
   tipIcon: {
     fontSize: '14px',

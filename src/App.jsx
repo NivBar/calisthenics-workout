@@ -61,13 +61,18 @@ function App() {
         />
 
         <div style={styles.blockHeader}>
-          <h2 style={styles.blockTitle}>
-            {currentBlock === 'Stretching' ? '🧘 ' : `Block ${currentBlock} • `}
-            {blocks[currentBlock]?.name}
-          </h2>
-          <div style={styles.exerciseCount}>
-            {currentExercises.length} {currentExercises.length === 1 ? 'exercise' : 'exercises'}
+          <div style={styles.blockTitleRow}>
+            <h2 style={styles.blockTitle}>
+              {currentBlock === 'Stretching' ? '🧘 ' : `Block ${currentBlock} • `}
+              {blocks[currentBlock]?.name}
+            </h2>
+            <div style={styles.exerciseCount}>
+              {currentExercises.length} {currentExercises.length === 1 ? 'exercise' : 'exercises'}
+            </div>
           </div>
+          <p style={styles.blockTip}>
+            💡 Hover over any exercise to see correct form guidance
+          </p>
         </div>
 
         <div style={styles.exerciseGrid}>
@@ -168,12 +173,21 @@ const styles = {
     padding: '0 20px 60px',
   },
   blockHeader: {
+    marginBottom: '32px',
+  },
+  blockTitleRow: {
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    marginBottom: '32px',
     flexWrap: 'wrap',
     gap: '16px',
+    marginBottom: '12px',
+  },
+  blockTip: {
+    margin: 0,
+    fontSize: '14px',
+    color: '#b0b0b0',
+    fontStyle: 'italic',
   },
   blockTitle: {
     margin: 0,
