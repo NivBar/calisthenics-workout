@@ -63,7 +63,7 @@ function App() {
         <div style={styles.blockHeader}>
           <div style={styles.blockTitleRow}>
             <h2 style={styles.blockTitle}>
-              {currentBlock === 'Stretching' ? '🧘 ' : `Block ${currentBlock} • `}
+              {currentBlock === 'Stretching' ? '🧘 ' : ''}
               {blocks[currentBlock]?.name}
             </h2>
             <div style={styles.exerciseCount}>

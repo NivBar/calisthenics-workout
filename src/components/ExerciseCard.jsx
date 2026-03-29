@@ -31,11 +31,6 @@ const ExerciseCard = ({ exercise, onSelect }) => {
         </div>
       )}
       
-      {exercise.rest && (
-        <div style={styles.restBadge}>
-          ⏱ {exercise.rest}
-        </div>
-      )}
 
       <div style={styles.footer}>
         <span style={styles.playIcon}>▶</span>

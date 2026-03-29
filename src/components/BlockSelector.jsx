@@ -19,7 +19,7 @@ const BlockSelector = ({ blocks, currentBlock, onBlockChange }) => {
               }}
             >
               <div style={styles.blockLabel}>
-                {blockKey === 'Stretching' ? '🧘' : `Block ${blockKey}`}
+                {blockKey === 'Stretching' ? '🧘 Stretching' : blockKey}
               </div>
               <div style={styles.blockName}>{block.name}</div>
               <div style={styles.exerciseCount}>
