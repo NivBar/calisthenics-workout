@@ -31,7 +31,7 @@ const VideoPlayer = ({ videoFile, autoPlay = true }) => {
 const styles = {
   container: {
     width: '100%',
-    maxWidth: '500px',
+    maxWidth: '400px',
     margin: '0 auto',
     borderRadius: '12px',
     overflow: 'hidden',
@@ -40,7 +40,9 @@ const styles = {
   video: {
     width: '100%',
     height: 'auto',
+    maxHeight: '300px',
     display: 'block',
+    objectFit: 'contain',
   },
 };
 

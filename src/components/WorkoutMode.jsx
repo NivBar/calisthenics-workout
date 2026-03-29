@@ -110,10 +110,28 @@ const WorkoutMode = ({ exercises, onExit }) => {
             <span style={styles.infoLabel}>💪 Muscles:</span>
             <span style={styles.infoValue}>{currentExercise.muscles}</span>
           </div>
+          {currentExercise.correctForm && (
+            <div style={styles.infoRow}>
+              <span style={styles.infoLabel}>✓ Correct Form:</span>
+              <span style={styles.infoValue}>{currentExercise.correctForm}</span>
+            </div>
+          )}
           {currentExercise.makeEasier && (
             <div style={styles.infoRow}>
               <span style={styles.infoLabel}>💡 Make easier:</span>
               <span style={styles.infoValue}>{currentExercise.makeEasier}</span>
+            </div>
+          )}
+          {currentExercise.makeHarder && (
+            <div style={styles.infoRow}>
+              <span style={styles.infoLabel}>🔥 Make harder:</span>
+              <span style={styles.infoValue}>{currentExercise.makeHarder}</span>
+            </div>
+          )}
+          {currentExercise.rest && (
+            <div style={styles.infoRow}>
+              <span style={styles.infoLabel}>⏱ Rest:</span>
+              <span style={styles.infoValue}>{currentExercise.rest}</span>
             </div>
           )}
         </div>
